@@ -43,6 +43,9 @@ bool avoid_collisions
 # Specify additional constraints to be met by the Cartesian path
 Constraints path_constraints
 
+# Use Spline or not 
+bool spline_trajectory
+
 ---
 
 # The state at which the computed path starts
