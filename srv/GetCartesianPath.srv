@@ -46,6 +46,11 @@ Constraints path_constraints
 # Use Spline or not 
 bool spline_trajectory
 
+# Retime scaling
+float64 max_velocity_scaling_factor
+
+float64 max_acceleration_scaling_factor
+
 ---
 
 # The state at which the computed path starts
