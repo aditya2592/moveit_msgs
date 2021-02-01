@@ -51,6 +51,10 @@ float64 max_velocity_scaling_factor
 
 float64 max_acceleration_scaling_factor
 
+# Retime scaling when not splining
+float64[] trajectory_max_velocity_scaling_factor
+
+float64[] trajectory_max_acceleration_scaling_factor
 ---
 
 # The state at which the computed path starts
