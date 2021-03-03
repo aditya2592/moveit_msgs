@@ -55,6 +55,9 @@ float64 max_acceleration_scaling_factor
 float64[] trajectory_max_velocity_scaling_factor
 
 float64[] trajectory_max_acceleration_scaling_factor
+
+string retime_algorithm_type
+
 ---
 
 # The state at which the computed path starts
